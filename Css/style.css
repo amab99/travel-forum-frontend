@@ -3,7 +3,7 @@
 body {
   text-align: center;
   font-family: georgia,serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("/Img/mountain-travel-site-icekc8vs7llo4nbz.jpg"); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Img/mountain-travel-site-icekc8vs7llo4nbz.jpg"); 
   padding-bottom: 50px;
   width: 900px;
   position: relative;
