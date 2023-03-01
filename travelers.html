@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>	
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Traveler site</title>
+        <link rel="shortcut icon" type="image/png" href="Img/airplane-take-off.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		
+		<!-- JavaScript -->
+		<script src="js/travelers.js" type="module"></script>
+	</head>
+
+	<body>
+		<br>
+		<header>
+			<!-- Navigation bar for the sites-->
+			<nav>
+				<ul class="nav-link"><br>
+					<img src="/Img/airplane-take-off.png" height="65px" width="65px"/>
+					<li><a href="travelers.html">Travelers List</a></li>
+					<li><a href="add-traveler.html">Add a traveler</a></li>
+					<li><a href="modify-traveler.html">Modify traveler info</a></li>
+				</ul>
+			</nav>
+		</header>
+		<br>
+		<br>
+		<main>			
+            <h1>Traveleres list</h1> <br>
+			<!-- To search for a traveler -->
+			<div class="search-container">
+				<label>Search for a Traveler:</label> <br>
+				<input type="text" id="search" placeholder="ssn or name ..">
+			</div>
+			<!-- Table to display the travelers with their info-->
+			<table>
+				<thead>
+					<tr>	
+                        <td>Name</td>
+						<td>Email</td>
+						<td>Phone number</td>
+                        <td>Destination</td>
+					</tr>
+				</thead>
+				<tbody id="travelers-table">
+				</tbody>
+			</table>
+			<br>
+		</main>
+		<!-- Site footer -->
+		<footer>
+			<p class="center"> 
+				This site read data from
+				<a href="https://amab2100-project-backend-dt190g.azurewebsites.net/api/travelers" target="blank"> Json-API</a>.
+			</p>
+		</footer>
+	</body>
+</html>

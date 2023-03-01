@@ -1,0 +1,226 @@
+
+/* Styles for the body element */
+body {
+  text-align: center;
+  font-family: georgia,serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("/Img/mountain-travel-site-icekc8vs7llo4nbz.jpg"); 
+  padding-bottom: 50px;
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6em;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/***** Styles for the header elements *****/
+header{
+  height:70px;
+  background: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-radius: 0 0 10px 10px;
+  
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color:black;
+  margin: 0 2px;
+  display: block;
+  font-weight: 600;
+  padding: 8px 18px;
+  transition: 0.2s;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: rgb(245, 239, 232);
+}
+.nav-link{
+  list-style: none;
+  padding: 0 70px;
+  margin-top: 30px;
+}
+
+/**** Style for the footer****/
+footer {
+  margin-top: 2em;
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+}
+
+/**** Styles for the traveler list site ****/
+
+/* Styles for the main element in the travelers list site */
+main {
+  padding: 20px;
+  border-radius: 8px;
+  border: thin solid grey;
+  box-shadow: 15px 15px 50px grey, 5px 5px 5px grey;
+  background-color: #fff;
+}
+
+h1{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color:black;
+  text-shadow: 5px 5px 20px black;
+  border-bottom:solid 1px black;
+}
+
+/* Styles for the search container */
+.search-container{
+  text-align:left ;
+}
+#search{
+  border-radius: 5px;
+}
+
+/* Styles for the table */
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+thead td {
+  font-weight: bold;
+  vertical-align: bottom;
+  padding: 2px 10px;
+}
+
+tbody td {
+  vertical-align: top;
+  padding: 2px 10px;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgb(239, 229, 219);
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #fff;
+}
+
+/**** Styles for the add traveler site And Modify traveler site****/
+
+/* Styles for the main element */
+.container {
+  background: rgba(0,0,0,0.5);
+  box-shadow: inset -5px 2px 2px white;
+  padding:28px;
+  margin: 0 95px;
+  border-radius: 10px;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom:solid 1px white;
+}
+
+/* Styles for the traveler info form  */
+.traveler-info {
+  display: flex;
+  justify-content: center;
+  padding:  10px;
+  text-align: left;
+}
+
+.traveler-info label{
+  width: 95%;
+  color: rgb(236, 225, 214);
+  font-size: 17px;
+  font-weight: 300;
+  margin: 5px 0;
+  padding: 10px;
+ 
+}
+
+.traveler-info input{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  padding: 0 30px;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.traveler-input{
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto;
+
+}
+
+.traveler-input-box{
+  display:flex;
+  align-content: center;
+  grid-template-columns: auto auto;
+}
+
+span{
+  position: absolute;
+  left: 75%;
+  top: 66.4%;
+  cursor: pointer;
+}
+.img{
+  left: 75%;
+  top: 71%;
+}
+
+/* Style for the delete button */
+#delete_{
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  background-color: rgba(254, 222, 118, 0.118);
+  color: black;
+  width: 90px;
+  height: 25px;
+  box-shadow: 10px 10px 45px rgb(181, 176, 176), 5px 5px 5px grey;
+}
+
+/* Styles for the select element */
+select{
+  width: 50%;
+  border-radius: 5px;
+  height: 25px;
+  text-align: center;
+}
+
+.submit{
+  display: block;
+  width: 97%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius:7px;
+  background-color: rgb(236, 225, 214);
+  margin: 10px;
+}

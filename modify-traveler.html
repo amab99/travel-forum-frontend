@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+        <title>Traveler site</title>
+        <link rel="shortcut icon" type="image/png" href="Img/airplane-take-off.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+		<!-- JavaScript -->
+		<script src="js/modify-traveler.js" type="module"></script>
+	</head>
+    <body>
+        <br>
+        <header>
+            <!-- Navigation bar for the sites-->
+            <nav>
+                <ul class="nav-link"><br>
+                    <img src="/Img/airplane-take-off.png" height="65px" width="65px"/>
+                    <li><a href="travelers.html">Travelers List</a></li>
+                    <li><a href="add-traveler.html">Add a traveler</a></li>
+                    <li><a href="modify-traveler.html">Modify traveler info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <main class="container">
+            <h3> Modify traveler</h3>
+            <!-- selector with the travelers -->
+            <select id="selectTraveler"> 
+                <option value="" disabled selected hidden>Choose a traveler ...</option>
+            </select><br><br>
+            <div class="traveler-info"> 
+                <!-- Form to modify or delete the traveler info -->
+                <form id="form">
+                    <div class="traveler-input">
+                        <div>
+                            <label for="fname"> First name:</label> <br>
+                            <input id="fname" type="text" placeholder="First name"  > <br>
+                        </div>
+                        <div>
+                            <label  for="surName">Surname:</label> <br>
+                            <input id="surName" type="text" placeholder="Surname"> <br>
+                        </div>
+                        <div>
+                            <label for="email"> Email:</label><br>
+                            <input id="email" type="text" placeholder="Email"> <br>
+                        </div>
+                        <div>
+                            <label for="phoneNr">Phone number:</label><br>
+                            <input id="phoneNr" type="text" placeholder="Phone number"> <br>
+                        </div>
+                    </div>
+                    <div class="traveler-input-box">
+                        <div>
+                            <label for="destination"> Destination:</label><br>
+                            <input id="destination" type="text" placeholder="Destination"> <br><br>
+                        </div>
+                        <div>
+                            <label for="ssn"> Social Security Number:</label><br>
+                            <input id="ssn" name="ssn" type="password" placeholder="ssn">
+                            <span class="img">
+                                <img src="Img/4727929.webp" id="ssn-icon" class="ssn-icon" alt="ssn" width="22px" height="22px">
+                            </span>
+                        </div><br>  
+                    </div>
+                    <!-- Buttons to delete or modify traveler -->
+                    <button class="submit" id="update" type="submit">Update</button>
+                </form>
+            </div>
+        </main>
+        <!-- Site footer -->
+        <footer></footer>
+    </body>
+</html>
