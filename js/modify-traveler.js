@@ -2,7 +2,7 @@ import { Atlas } from './atlas.js';
 import { RESTDataSource } from './rest-data-source.js';
 
 /** The data source for our Atlas */
-const dataSource = new RESTDataSource("https://amab2100-project-backend-dt190g.azurewebsites.net/");
+const dataSource = new RESTDataSource("https://amab2100-project-dt190g-ht22.azurewebsites.net/");
 /** The Atlas instance */
 const atlas = new Atlas(dataSource);
 
